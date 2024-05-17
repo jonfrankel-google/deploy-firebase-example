@@ -1,4 +1,4 @@
 steps:
   - name: gcr.io/devops-423508/firebase
     args: ['deploy', '--project=devops-423508', '--only=hosting']
-logsBucket: 'gs:devops-yvf'
+logsBucket: 'gs://devops-yvf'
